@@ -1,0 +1,22 @@
+<h1 class="main"><%= name %></h1>
+
+<p>Using default form submission (GET)</p>
+<form action="/name" method="get">
+  <input type="text" name="name">
+  <input type="submit" value="go!">
+</form>
+
+<p>Using default form submission (POST)</p>
+<form action="/name" method="post">
+  <input type="text" name="name">
+  <input type="submit" value="go!">
+</form>
+
+<p>Using AJAX</p>
+<form class="name-form">
+  <input class="name-input" type="text"></input>
+  <input type="submit" value="go!"></input>
+</form>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="http-requests.js"></script>
