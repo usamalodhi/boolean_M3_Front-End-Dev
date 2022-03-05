@@ -1,0 +1,36 @@
+/* HEADER */
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 20px;
+
+  color: #000000cc;
+}
+
+header ul {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  list-style: none;
+  height: 100%;
+  grid-gap: 10px;
+}
+
+header .left-menu ul {
+  justify-content: left;
+}
+
+header .right-menu ul {
+  justify-content: right;
+}
+
+header .menu-icon {
+  width: 25px;
+}
+
+header .avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+/* HEADER */

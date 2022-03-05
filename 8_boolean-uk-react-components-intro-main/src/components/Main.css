@@ -1,0 +1,39 @@
+/* MAIN */
+main {
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 20px;
+}
+
+main .logo {
+  width: 300px;
+}
+
+main .search-bar {
+  border: solid 1px #00000030;
+  border-radius: 20px;
+  width: 400px;
+  font-size: 1rem;
+  padding: 10px 20px;
+}
+
+main .search-bar:focus {
+  outline: none;
+  box-shadow: 0 0 5px 1px #00000020;
+}
+
+main .buttons {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 10px;
+}
+
+main .buttons button {
+  padding: 7px 13px;
+  border: none;
+  border-radius: 3px;
+  color: #000000bb;
+  font-size: 0.85rem;
+}
+/* MAIN */
