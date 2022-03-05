@@ -1,0 +1,36 @@
+body {
+  padding: 10px;
+}
+
+li {
+  display: grid;
+  grid-template-columns: 400px repeat(3, 70px);
+  gap: 10px;
+  padding-bottom: 1em;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 1em 1em;
+  border: 0.25em solid black;
+  font-weight: bold;
+}
+
+.done {
+  background-color: lightgreen;
+}
+
+.delete {
+  cursor: pointer;
+  background-color: red;
+}
+
+.replace {
+  cursor: pointer;
+  background-color: lightblue;
+  width: 80px;
+}
+
+.tick {
+  width: 70px;
+}
